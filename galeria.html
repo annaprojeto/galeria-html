@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Filmes</title>
+    <style>
+        body { background-color: #f4f4f4; font-family: Arial, sans-serif; text-align: center; color: #333; }
+        h1 { margin: 30px 0; }
+        .galeria { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 20px; }
+        .filme { width: 200px; text-align: center; }
+        .filme img { width: 100%; border-radius: 10px; transition: transform 0.2s; }
+        .filme img:hover { transform: scale(1.05); }
+        .filme a { text-decoration: none; color: #000; font-weight: bold; display: block; margin-top: 10px; }
+        .filme a:hover { color: #555; }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Filmes</h1>
+    <div class="galeria">
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Os_Farofeiros" target="_blank">
+                <img src="os_farofeiros.jpg" alt="Os Farofeiros">
+                Os Farofeiros
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Inatividade_Paranormal" target="_blank">
+                <img src="inatividade_paranormal.jpg" alt="Inatividade Paranormal">
+                Inatividade Paranormal
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Deadpool_(filme)" target="_blank">
+                <img src="deadpool.jpg" alt="Deadpool">
+                Deadpool
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Meu_Malvado_Favorito" target="_blank">
+                <img src="meu_malvado_favorito.jpg" alt="Meu Malvado Favorito">
+                Meu Malvado Favorito
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/A_Culpa_é_das_Estrelas_(filme)" target="_blank">
+                <img src="a_culpa_e_das_estrelas.jpg" alt="A Culpa é das Estrelas">
+                A Culpa é das Estrelas
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/A_Forma_da_%C3%81gua" target="_blank">
+                <img src="a_forma_da_agua.jpg" alt="A Forma da Água">
+                A Forma da Água
+            </a>
+        </div>
+    </div>
+</body>
+</html>
